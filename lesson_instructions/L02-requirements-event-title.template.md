@@ -5,7 +5,7 @@
 
 # Requirements — Rename event title (L-02)
 
-**Student:** ...  **Date:** 24.10.2026  **Fork URL:** https://github.com/ShaniKorenbarg1/event-photo-capstone
+**Student:** shani korenberg  **Date:** 24.10.2026  **Fork URL:** https://github.com/ShaniKorenbarg1/event-photo-capstone
 
 ## 1. Original request (do not reinterpret)
 > I entered the wrong event name. I want to be able to change the event name displayed in the client's gallery.
