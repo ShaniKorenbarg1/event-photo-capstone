@@ -5,7 +5,7 @@
 
 # Requirements — Rename event title (L-02)
 
-**Student:** shani korenberg  **Date:** 24.10.2026  **Fork URL:** https://github.com/ShaniKorenbarg1/event-photo-capstone
+**Student:** shani korenberg  **Date:** 21.10.2026  **Fork URL:** https://github.com/ShaniKorenbarg1/event-photo-capstone
 
 ## 1. Original request (do not reinterpret)
 > I entered the wrong event name. I want to be able to change the event name displayed in the client's gallery.
@@ -16,6 +16,9 @@
 | Event title exists in data model | לכל אירוע יש שדה `title` מסוג `string` שמייצג את שם האירוע. מקור: `src/domain/types.ts` – בתוך `EventRecord` | כן |
 | Current client gallery presents title | שם האירוע מוצג בגלריה של הלקוחה באמצעות הפונקציה `getClientGallery`, שמחזירה את `event.title`. מקור: `src/services/event-service.ts` | כן |
 | No rename endpoint exists in inspected route file | בקוד הקיים אין אפשרות לשנות את שם האירוע, מכיוון שלא מוגדרים נתיב או פונקציה לעדכון השם. מקור: `src/http/app.ts` ו־`src/services/event-service.ts` | כן |
+מה משפיע ומה מושפע בקוד עם התעסקות עם titel?
+
+
 
 ## 3. Actors / users / use cases / permissions
 - Verified: הצלמת מנהלת את האירועים והלקוחה רואה את הגלריה.
